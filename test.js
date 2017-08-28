@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers, no-undefined */
 import {test} from "tap"
 
-import isObject from "./source"
+import isObject from "./"
 
 test(({notOk, end}) => {
   notOk(isObject(null))

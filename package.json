@@ -52,7 +52,7 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/istype": "2.12.0"
+    "@unction/istype": "3.0.0"
   },
   "nyc": {
     "require": [

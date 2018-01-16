@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> boolean
+> mixed => boolean
 
 Takes a value and determines if it's an object.
 

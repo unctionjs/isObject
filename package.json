@@ -1,6 +1,6 @@
 {
   "name": "@unction/isobject",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "Takes a value and determines if it's an object",
   "keywords": [
     "unction",

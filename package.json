@@ -51,7 +51,7 @@
     "jest": "23.0.0"
   },
   "dependencies": {
-    "@unction/istype": "4.0.0"
+    "@unction/istype": "5.0.0"
   },
   "nyc": {
     "require": [

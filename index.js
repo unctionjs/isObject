@@ -1,5 +1,4 @@
-import isType from "@unction/istype"
-
-export default function isObject (value: mixed): boolean {
-  return isType("Object")(value)
+import isType from "@unction/istype";
+export default function isObject(value) {
+  return isType("Object")(value);
 }

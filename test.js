@@ -1,46 +1,46 @@
 /* eslint-disable no-magic-numbers, no-undefined */
-import {test} from "tap"
+import {test} from "tap";
 
-import isObject from "./index"
-
-test(({notOk, end}) => {
-  notOk(isObject(null))
-
-  end()
-})
+import isObject from "./index";
 
 test(({notOk, end}) => {
-  notOk(isObject(undefined))
+  notOk(isObject(null));
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
-  notOk(isObject("b"))
+  notOk(isObject(undefined));
 
-  end()
-})
+  end();
+});
+
+test(({notOk, end}) => {
+  notOk(isObject("b"));
+
+  end();
+});
 
 test(({ok, end}) => {
-  ok(isObject({}))
+  ok(isObject({}));
 
-  end()
-})
-
-test(({notOk, end}) => {
-  notOk(isObject([]))
-
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
-  notOk(isObject(1))
+  notOk(isObject([]));
 
-  end()
-})
+  end();
+});
 
 test(({notOk, end}) => {
-  notOk(isObject(new Buffer("x")))
+  notOk(isObject(1));
 
-  end()
-})
+  end();
+});
+
+test(({notOk, end}) => {
+  notOk(isObject(new Buffer("x")));
+
+  end();
+});

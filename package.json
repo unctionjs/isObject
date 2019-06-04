@@ -51,7 +51,7 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/istype": "5.0.0"
+    "@unction/istype": "6.1.0"
   },
   "nyc": {
     "require": [

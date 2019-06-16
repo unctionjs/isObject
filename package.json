@@ -51,8 +51,7 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/istype": "6.5.0",
-    "core-js": "3.0.1"
+    "@unction/istype": "6.5.0"
   },
   "nyc": {
     "require": [

@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers, no-undefined */
 import {test} from "tap";
 
-import isObject from "./index";
+import isObject from "./";
 
 test(({notOk, end}) => {
   notOk(isObject(null));

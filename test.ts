@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers, no-undefined */
-import isObject from "./index.ts";
+import isObject from "./index";
 
 test(() => {
   expect(isObject(null)).toBeFalsy();

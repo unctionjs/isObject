@@ -1,30 +1,30 @@
 /* eslint-disable no-magic-numbers, no-undefined */
 import isObject from "./index";
 
-test(() => {
+test("works", () => {
   expect(isObject(null)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject(undefined)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject("b")).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject({})).toBeTruthy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject([])).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject(1)).toBeFalsy();
 });
 
-test(() => {
+test("works", () => {
   expect(isObject(new Buffer("x"))).toBeFalsy();
 });
